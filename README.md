@@ -1,1 +1,1 @@
-![t](https://github.com/Krymets/Tetris/assets/51824412/99325ee3-f511-4c3a-8629-e1c85787f9b3)
+![tt](https://github.com/Krymets/Tetris/assets/51824412/c54a85fd-d572-4aa8-b64a-a8a68956885f)
