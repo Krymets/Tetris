@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TETRIS</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p>best score: <span id="bestOutput"></span></p>
+        <h1>tetris</h1>
+        <div class="headerBtn">
+            <button id="restartBtnHeader">restart</button>
+            <button id="play-pauseBtn">play/pause</button>
+        </div>
+    </header>
+    <main class="game">
+        <p>Score: <span id="output"></span></p>
+        <div class="tetris">
+        </div>
+        <div class="button-container">
+            <div class="manipulate">
+                <div class="btn" id="btn-left"></div>
+                <div class="btn" id="btn-right"></div>
+                <div class="btn" id="btn-down"></div>
+            </div>
+            <div class="btn" id="btn-up"></div>
+        </div>
+    </main>
+
+    <div class="game-over">
+        <p id="game-over-text">game over</p>
+        <p id="totalScore">Total score: <span id="totalScoreOutput"></span></p>
+        <button class="restartBtn"><span>play again</span></button>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
